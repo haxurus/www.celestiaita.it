@@ -10,13 +10,13 @@ const sections = [...document.querySelectorAll('main section[id]')];
 // Levels are used only to separate members into rows and are not shown on the page.
 // Levels 1-3 are staff; level 4 is below the "No staff" divider; level 5 is below the "Collaboratori esterni" divider.
 // IMPORTANT: members inside every level/category must always be displayed in alphabetical order by name.
-// Suggested image path: ../../img/celestia/users/filename.webp
+// Suggested image path: /img/users/filename.webp
 const staffMembers = [
   {
     name: 'Haxurus',
     role: 'CEO',
     level: 1,
-    image: '../../img/celestia/users/haxurus.webp'
+    image: '/img/users/haxurus.webp'
   },
 
   // Level 2 - Moderatori. Keep these members in alphabetical order.
@@ -24,79 +24,79 @@ const staffMembers = [
     name: 'Flowey',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/floweyy.webp'
+    image: '/img/users/floweyy.webp'
   },
   {
     name: 'Altr3xa',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/altr3xa.webp'
+    image: '/img/users/altr3xa.webp'
   },
   {
     name: 'Artyom',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/artyom.webp'
+    image: '/img/users/artyom.webp'
   },
   {
     name: 'Cristaldragon17',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/cristaldragon17.webp'
+    image: '/img/users/cristaldragon17.webp'
   },
   {
     name: 'GoldenLuna',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/golden-luna.webp'
+    image: '/img/users/golden-luna.webp'
   },
   {
     name: 'julisenpai',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/julie-senpai.webp'
+    image: '/img/users/julie-senpai.webp'
   },
   {
     name: 'kitsunefirefox',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/kitsunefirefox.webp'
+    image: '/img/users/kitsunefirefox.webp'
   },
   {
     name: 'Lev_Hiaba11',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/lev-haiba.webp'
+    image: '/img/users/lev-haiba.webp'
   },
   {
     name: 'Lil Shark',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/lil-shark.webp'
+    image: '/img/users/lil-shark.webp'
   },
   {
     name: 'Neko Senpai',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/neko-senpai.webp'
+    image: '/img/users/neko-senpai.webp'
   },
   {
     name: 'Tatsu-Ming',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/tatsu-ming.webp'
+    image: '/img/users/tatsu-ming.webp'
   },
   {
     name: 'thadoom',
     role: 'Moderatore · In prova',
     level: 2,
-    image: '../../img/celestia/users/thadoom.webp'
+    image: '/img/users/thadoom.webp'
   },
   {
     name: 'Yuko',
     role: 'Moderatore',
     level: 2,
-    image: '../../img/celestia/users/yuko.webp'
+    image: '/img/users/yuko.webp'
   },
 
   // Level 4 - Fondatori (no staff). Keep these members in alphabetical order.
@@ -104,37 +104,37 @@ const staffMembers = [
     name: 'Autoincazzata',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/autoincazzata.webp'
+    image: '/img/users/autoincazzata.webp'
   },
   {
     name: 'Haxurus',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/haxurus.webp'
+    image: '/img/users/haxurus.webp'
   },
   {
     name: 'julisenpai',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/julie-senpai.webp'
+    image: '/img/users/julie-senpai.webp'
   },
   {
     name: 'Killer Jack',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/killer-jack.webp'
+    image: '/img/users/killer-jack.webp'
   },
   {
     name: 'Neko Senpai',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/neko-senpai.webp'
+    image: '/img/users/neko-senpai.webp'
   },
   {
     name: 'Wodoox',
     role: '',
     level: 4,
-    image: '../../img/celestia/users/wodoox.webp'
+    image: '/img/users/wodoox.webp'
   },
 
   // Level 5 - Collaboratori esterni. Keep these members in alphabetical order.
@@ -142,24 +142,24 @@ const staffMembers = [
     name: 'Kaira',
     role: 'Editor mappa',
     level: 5,
-    image: '../../img/celestia/users/kaira.webp'
+    image: '/img/users/kaira.webp'
   },
   {
     name: 'ThaWalife',
     role: 'Graphic Designer',
     level: 5,
-    image: '../../img/celestia/users/walife.webp'
+    image: '/img/users/walife.webp'
   }
 ];
 
 // Community ospiti.
 // Per aggiungerne una, inserire un oggetto con:
 // name, logo, description, vrchat, discord.
-// Logo consigliato: ../../img/celestia/guests/nome-community.webp
+// Logo consigliato: /img/guests/nome-community.webp
 const guestCommunities = [
   {
     name: 'The Realms',
-    logo: '../../img/celestia/guests/the-realms.webp',
+    logo: '/img/guests/the-realms.webp',
     description: 'The Realms ITA è una community italiana di VRChat, chill e aperta a tutti. Fondata su rispetto, amicizia e divertimento, offre uno spazio tranquillo dove essere se stessi, conoscere nuove persone e condividere momenti senza pressioni.',
     vrchat: 'https://vrc.group/ITALIA.1585',
     discord: 'https://discord.gg/zMdY5SfPNy'
