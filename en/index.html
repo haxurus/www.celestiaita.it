@@ -11,9 +11,9 @@
   <link rel="alternate" hreflang="it" href="https://haxurus.com/celestia/it/" />
   <link rel="alternate" hreflang="en" href="https://haxurus.com/celestia/en/" />
   <link rel="alternate" hreflang="x-default" href="https://haxurus.com/celestia/it/" />
-  <link rel="icon" type="image/webp" href="/img/celestia/favicon.webp" />
-  <link rel="apple-touch-icon" href="../img/celestia/logo_white.webp" />
-  <link rel="preload" as="image" href="/img/celestia/logo_white.webp" type="image/webp" fetchpriority="high" />
+  <link rel="icon" type="image/webp" href="/img/logo.webp" />
+  <link rel="apple-touch-icon" href="/img/logo_white.webp" />
+  <link rel="preload" as="image" href="/img/logo_white.webp" type="image/webp" fetchpriority="high" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Celestia" />
@@ -21,12 +21,12 @@
   <meta property="og:title" content="Celestia | VRChat Community" />
   <meta property="og:description" content="A place where the stars shine, friendships begin, and adventures never end." />
   <meta property="og:url" content="https://haxurus.com/celestia/en/" />
-  <meta property="og:image" content="https://haxurus.com/img/celestia/social-preview.webp" />
+  <meta property="og:image" content="https://www.celestiaita.it/img/copertina.webp" />
   <meta property="og:image:alt" content="Celestia VRChat Community" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Celestia | VRChat Community" />
   <meta name="twitter:description" content="Italian VRChat community, virtual worlds, activities, and new friendships." />
-  <meta name="twitter:image" content="https://haxurus.com/img/celestia/social-preview.webp" />
+  <meta name="twitter:image" content="https://www.celestiaita.it/img/copertina.webp" />
 
   <link rel="stylesheet" href="../style.css?v=20260906-2" />
   <style>
@@ -47,7 +47,7 @@
     body{background:radial-gradient(circle at 78% 10%,rgba(96,93,135,.14),transparent 28%),radial-gradient(circle at 14% 34%,rgba(63,60,84,.16),transparent 32%),var(--bg)}
     body.intro-active{overflow:hidden}
     .site-intro{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#000;opacity:1;visibility:visible;transition:opacity .9s ease,visibility 0s linear .9s}
-    .site-intro::before{width:min(62vw,520px);height:min(38vh,320px);background:url('/img/celestia/logo_white.webp') center/contain no-repeat;content:""}
+    .site-intro::before{width:min(62vw,520px);height:min(38vh,320px);background:url('/img/logo_white.webp') center/contain no-repeat;content:""}
     .site-intro.is-leaving{opacity:0;visibility:hidden;pointer-events:none}
     .site-header{background:rgba(17,17,17,.90)}
     .brand{padding:7px 0}
@@ -64,7 +64,7 @@
     .mobile-language-switcher{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 0 4px}
     .mobile-language-switcher a{min-width:74px;padding:9px 14px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:.78rem;font-weight:800;text-align:center;text-decoration:none}
     .mobile-language-switcher a.is-active{color:var(--text);border-color:#605d87;background:rgba(96,93,135,.22)}
-    .hero::before{background:linear-gradient(90deg,rgba(17,17,17,.98) 0%,rgba(25,24,38,.90) 38%,rgba(25,24,38,.20) 72%,rgba(17,17,17,.24) 100%),linear-gradient(0deg,rgba(17,17,17,.78),rgba(17,17,17,.04) 50%),url("../../img/celestia/hero.webp") 66% center/cover no-repeat,radial-gradient(circle at 75% 30%,#3f3c54,#191826 42%,#111111 76%)}
+    .hero::before{background:linear-gradient(90deg,rgba(17,17,17,.98) 0%,rgba(25,24,38,.90) 38%,rgba(25,24,38,.20) 72%,rgba(17,17,17,.24) 100%),linear-gradient(0deg,rgba(17,17,17,.78),rgba(17,17,17,.04) 50%),url("/img/hero.webp") 66% center/cover no-repeat,radial-gradient(circle at 75% 30%,#3f3c54,#191826 42%,#111111 76%)}
     .eyebrow,.section-kicker{color:#c2c7d0}
     h1 span{background:linear-gradient(105deg,#e5e5e5 0 8%,#c2c7d0 48%,#605d87 100%);-webkit-background-clip:text;background-clip:text}
     .hero-lead,.hero-note{color:#c2c7d0}
@@ -95,13 +95,13 @@
     @media(max-width:900px){.guest-grid{grid-template-columns:1fr}.guest-callout{align-items:flex-start;flex-direction:column}.guest-callout .button{width:100%}}
     @media(max-width:620px){.guest-card{grid-template-columns:1fr;padding:22px;text-align:center}.guest-logo{width:96px;height:96px;margin:0 auto}.guest-card__actions{justify-content:center}.guest-card__actions .button{width:100%}}
     .world-shot::after{background:none!important}
-    .world-shot--main{background-image:url("../../img/celestia/vrchat-world.webp")}
-    .world-shot--two{background-image:url("../../img/celestia/world-2.webp")}
-    .world-shot--three{background-image:url("../../img/celestia/world-3.webp")}
-    .world-shot--four{background-image:url("../../img/celestia/world-4.webp")}
-    .world-shot--five{background-image:url("../../img/celestia/world-5.webp")}
-    .world-shot--six{background-image:url("../../img/celestia/world-6.webp")}
-    .world-shot--seven{background-image:url("../../img/celestia/world-7.webp")}
+    .world-shot--main{background-image:url("/img/vrchat-world.webp")}
+    .world-shot--two{background-image:url("/img/world-2.webp")}
+    .world-shot--three{background-image:url("/img/world-3.webp")}
+    .world-shot--four{background-image:url("/img/world-4.webp")}
+    .world-shot--five{background-image:url("/img/world-5.webp")}
+    .world-shot--six{background-image:url("/img/world-6.webp")}
+    .world-shot--seven{background-image:url("/img/world-7.webp")}
     .staff-card__media{background:radial-gradient(circle at 50% 32%,rgba(96,93,135,.38),rgba(63,60,84,.22) 42%,#191826 75%)}
     .staff-card__media::after{background:linear-gradient(180deg,transparent 60%,rgba(17,17,17,.38))}
     .staff-card__initials{color:rgba(194,199,208,.68)}
@@ -150,7 +150,7 @@
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#home" aria-label="Celestia - Home">
-        <img src="../../img/celestia/logo.webp" alt="Celestia" />
+        <img src="/img/logo.webp" alt="Celestia" />
       </a>
       <nav class="nav-links" aria-label="Main navigation">
         <a data-nav class="is-active" href="#home">Home</a>
