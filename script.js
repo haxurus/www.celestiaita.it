@@ -111,12 +111,6 @@ const staffMembers = [
     image: '/img/users/lev-haiba.webp'
   },
   {
-    name: 'Lil Shark',
-    role: copy.moderator,
-    level: 2,
-    image: '/img/users/lil-shark.webp'
-  },
-  {
     name: 'Neko Senpai',
     role: copy.moderator,
     level: 2,
@@ -133,12 +127,6 @@ const staffMembers = [
     role: copy.moderatorTrial,
     level: 2,
     image: '/img/users/thadoom.webp'
-  },
-  {
-    name: 'Yuko',
-    role: copy.moderator,
-    level: 2,
-    image: '/img/users/yuko.webp'
   },
 
   // Level 4 - Fondatori (no staff). Keep these members in alphabetical order.
