@@ -3,6 +3,7 @@ const copy = {
   it: {
     moderatorTrial: 'Moderatore · In prova',
     moderator: 'Moderatore',
+    moderatorFemale: 'Moderatrice',
     julieName: 'julisenpai',
     worldEditor: 'Editor mappa',
     guestDescription: 'The Realms ITA è una community italiana di VRChat, chill e aperta a tutti. Fondata su rispetto, amicizia e divertimento, offre uno spazio tranquillo dove essere se stessi, conoscere nuove persone e condividere momenti senza pressioni.',
@@ -22,6 +23,7 @@ const copy = {
   en: {
     moderatorTrial: 'Moderator · Trial',
     moderator: 'Moderator',
+    moderatorFemale: 'Moderator',
     julieName: 'Julie Senpai',
     worldEditor: 'World Editor',
     guestDescription: 'The Realms ITA is an Italian VRChat community that is relaxed and open to everyone. Built around respect, friendship, and fun, it offers a welcoming space where people can be themselves, meet new people, and share moments without pressure.',
@@ -87,6 +89,12 @@ const staffMembers = [
     image: '/img/users/cristaldragon17.webp'
   },
   {
+    name: 'Di4mante',
+    role: copy.moderatorFemale,
+    level: 2,
+    image: '/img/users/di4mante.webp'
+  },
+  {
     name: 'GoldenLuna',
     role: copy.moderator,
     level: 2,
@@ -121,12 +129,6 @@ const staffMembers = [
     role: copy.moderatorTrial,
     level: 2,
     image: '/img/users/tatsu-ming.webp'
-  },
-  {
-    name: 'thadoom',
-    role: copy.moderatorTrial,
-    level: 2,
-    image: '/img/users/thadoom.webp'
   },
 
   // Level 4 - Fondatori (no staff). Keep these members in alphabetical order.
