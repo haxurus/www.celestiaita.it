@@ -33,7 +33,7 @@ body.has-pointer .cursor-glow{opacity:1}
 
 /* ---------- intro ---------- */
 .site-intro{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#000;opacity:1;visibility:visible;transition:opacity .9s ease,visibility 0s linear .9s}
-.site-intro::before{width:min(76vw,420px);height:min(34vh,260px);background:url('/img/logo_white.webp') center/contain no-repeat;content:"";animation:introPulse 2s var(--ease) both}
+.site-intro::before{width:min(76vw,420px);height:min(34vh,260px);background:url('img/logo_white.webp') center/contain no-repeat;content:"";animation:introPulse 2s var(--ease) both}
 .site-intro::after{content:"";position:absolute;width:min(60vw,420px);height:min(60vw,420px);border-radius:50%;background:radial-gradient(circle,rgba(143,137,255,.35),transparent 65%);animation:introPulse 2s var(--ease) both;z-index:-1}
 .site-intro.is-leaving{opacity:0;visibility:hidden;pointer-events:none}
 @keyframes introPulse{0%{opacity:0;transform:scale(.8);filter:blur(12px)}40%{opacity:1;filter:blur(0)}100%{opacity:1;transform:scale(1.05)}}
@@ -70,7 +70,7 @@ body.menu-open .menu-toggle::after{transform:translateY(-5.5px) rotate(-45deg)}
 
 /* ---------- hero ---------- */
 .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;overflow:hidden;isolation:isolate}
-.hero-bg{position:absolute;inset:-6%;z-index:-3;background:url("/img/hero.webp") center/cover no-repeat;transform:translate3d(calc((var(--mx) - 50vw) * -.012),calc(var(--hy,0px) + (var(--my) - 50vh) * -.012),0) scale(1.08);animation:heroZoom 22s ease-in-out infinite alternate;will-change:transform}
+.hero-bg{position:absolute;inset:-6%;z-index:-3;background:url("img/hero.webp") center/cover no-repeat;transform:translate3d(calc((var(--mx) - 50vw) * -.012),calc(var(--hy,0px) + (var(--my) - 50vh) * -.012),0) scale(1.08);animation:heroZoom 22s ease-in-out infinite alternate;will-change:transform}
 @keyframes heroZoom{to{filter:saturate(1.2) brightness(1.08)}}
 .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(7,6,15,.94) 0%,rgba(7,6,15,.7) 40%,rgba(7,6,15,.15) 80%),linear-gradient(0deg,var(--bg) 0%,transparent 35%),linear-gradient(180deg,rgba(7,6,15,.6),transparent 25%)}
 .hero-orb{position:absolute;z-index:-1;border-radius:50%;filter:blur(70px);pointer-events:none;mix-blend-mode:screen}
@@ -147,13 +147,13 @@ h1 .ch-wrap{display:inline-block;overflow:hidden;padding:0 .02em .08em;vertical-
 .world-shot:hover::before{transform:scale(1.1)}
 .world-shot::after{content:"⤢";position:absolute;right:14px;bottom:14px;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:rgba(10,9,24,.6);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);font-size:1rem;opacity:0;transform:translateY(8px);transition:.35s var(--ease)}
 .world-shot:hover::after{opacity:1;transform:none}
-.world-shot--main{grid-column:span 4;grid-row:span 2;--img:url("/img/vrchat-world.webp")}
-.world-shot--two{grid-column:span 2;--img:url("/img/world-2.webp")}
-.world-shot--three{grid-column:span 2;--img:url("/img/world-3.webp")}
-.world-shot--four{grid-column:span 3;--img:url("/img/world-4.webp")}
-.world-shot--five{grid-column:span 3;--img:url("/img/world-5.webp")}
-.world-shot--six{grid-column:span 2;--img:url("/img/world-6.webp")}
-.world-shot--seven{grid-column:span 4;--img:url("/img/world-7.webp")}
+.world-shot--main{grid-column:span 4;grid-row:span 2;--img:url("img/vrchat-world.webp")}
+.world-shot--two{grid-column:span 2;--img:url("img/world-2.webp")}
+.world-shot--three{grid-column:span 2;--img:url("img/world-3.webp")}
+.world-shot--four{grid-column:span 3;--img:url("img/world-4.webp")}
+.world-shot--five{grid-column:span 3;--img:url("img/world-5.webp")}
+.world-shot--six{grid-column:span 2;--img:url("img/world-6.webp")}
+.world-shot--seven{grid-column:span 4;--img:url("img/world-7.webp")}
 
 /* lightbox */
 .lightbox{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:rgba(5,4,12,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);opacity:0;visibility:hidden;transition:opacity .35s,visibility 0s linear .35s}

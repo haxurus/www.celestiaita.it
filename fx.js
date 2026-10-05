@@ -236,7 +236,8 @@
   const shots = [...document.querySelectorAll('.world-gallery .world-shot')];
   if (shots.length) {
     const urls = shots.map((s) => {
-      const m = getComputedStyle(s).getPropertyValue('--img').match(/url\(["']?([^"')]+)["']?\)/);
+      // backgroundImage of the pseudo-element is already resolved to an absolute URL
+      const m = getComputedStyle(s, '::before').backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
       return m ? m[1] : '';
     });
     const lb = document.createElement('div');

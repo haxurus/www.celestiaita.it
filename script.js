@@ -60,7 +60,7 @@ const staffMembers = [
     name: 'Haxurus',
     role: 'CEO',
     level: 1,
-    image: '/img/users/haxurus.webp'
+    image: '../img/users/haxurus.webp'
   },
 
   // Level 2 - Moderatori. Keep these members in alphabetical order.
@@ -68,67 +68,67 @@ const staffMembers = [
     name: 'Flowey',
     role: copy.moderatorTrial,
     level: 2,
-    image: '/img/users/floweyy.webp'
+    image: '../img/users/floweyy.webp'
   },
   {
     name: 'Altr3xa',
     role: copy.moderator,
     level: 2,
-    image: '/img/users/altr3xa.webp'
+    image: '../img/users/altr3xa.webp'
   },
   {
     name: 'Artyom',
     role: copy.moderator,
     level: 2,
-    image: '/img/users/artyom.webp'
+    image: '../img/users/artyom.webp'
   },
   {
     name: 'Cristaldragon17',
     role: copy.moderatorTrial,
     level: 2,
-    image: '/img/users/cristaldragon17.webp'
+    image: '../img/users/cristaldragon17.webp'
   },
   {
     name: 'Di4mante',
     role: copy.moderatorFemale,
     level: 2,
-    image: '/img/users/di4mante.webp'
+    image: '../img/users/di4mante.webp'
   },
   {
     name: 'GoldenLuna',
     role: copy.moderator,
     level: 2,
-    image: '/img/users/golden-luna.webp'
+    image: '../img/users/golden-luna.webp'
   },
   {
     name: copy.julieName,
     role: copy.moderator,
     level: 2,
-    image: '/img/users/julie-senpai.webp'
+    image: '../img/users/julie-senpai.webp'
   },
   {
     name: 'kitsunefirefox',
     role: copy.moderatorTrial,
     level: 2,
-    image: '/img/users/kitsunefirefox.webp'
+    image: '../img/users/kitsunefirefox.webp'
   },
   {
     name: 'Lev_Hiaba11',
     role: copy.moderatorTrial,
     level: 2,
-    image: '/img/users/lev-haiba.webp'
+    image: '../img/users/lev-haiba.webp'
   },
   {
     name: 'Neko Senpai',
     role: copy.moderator,
     level: 2,
-    image: '/img/users/neko-senpai.webp'
+    image: '../img/users/neko-senpai.webp'
   },
   {
     name: 'Tatsu-Ming',
     role: copy.moderatorTrial,
     level: 2,
-    image: '/img/users/tatsu-ming.webp'
+    image: '../img/users/tatsu-ming.webp'
   },
 
   // Level 4 - Fondatori (no staff). Keep these members in alphabetical order.
@@ -136,37 +136,37 @@ const staffMembers = [
     name: 'Autoincazzata',
     role: '',
     level: 4,
-    image: '/img/users/autoincazzata.webp'
+    image: '../img/users/autoincazzata.webp'
   },
   {
     name: 'Haxurus',
     role: '',
     level: 4,
-    image: '/img/users/haxurus.webp'
+    image: '../img/users/haxurus.webp'
   },
   {
     name: copy.julieName,
     role: '',
     level: 4,
-    image: '/img/users/julie-senpai.webp'
+    image: '../img/users/julie-senpai.webp'
   },
   {
     name: 'Killer Jack',
     role: '',
     level: 4,
-    image: '/img/users/killer-jack.webp'
+    image: '../img/users/killer-jack.webp'
   },
   {
     name: 'Neko Senpai',
     role: '',
     level: 4,
-    image: '/img/users/neko-senpai.webp'
+    image: '../img/users/neko-senpai.webp'
   },
   {
     name: 'Wodoox',
     role: '',
     level: 4,
-    image: '/img/users/wodoox.webp'
+    image: '../img/users/wodoox.webp'
   },
 
   // Level 5 - Collaboratori esterni. Keep these members in alphabetical order.
@@ -174,13 +174,13 @@ const staffMembers = [
     name: 'Kaira',
     role: copy.worldEditor,
     level: 5,
-    image: '/img/users/kaira.webp'
+    image: '../img/users/kaira.webp'
   },
   {
     name: 'ThaWalife',
     role: 'Graphic Designer',
     level: 5,
-    image: '/img/users/walife.webp'
+    image: '../img/users/walife.webp'
   }
 ];
 
@@ -191,7 +191,7 @@ const staffMembers = [
 const guestCommunities = [
   {
     name: 'The Realms',
-    logo: '/img/guests/the-realms.webp',
+    logo: '../img/guests/the-realms.webp',
     description: copy.guestDescription,
     vrchat: 'https://vrc.group/ITALIA.1585',
     discord: 'https://discord.gg/zMdY5SfPNy'
