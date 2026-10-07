@@ -125,6 +125,12 @@ const staffMembers = [
     image: '../img/users/neko-senpai.webp'
   },
   {
+    name: 'rxso',
+    role: copy.moderatorTrial,
+    level: 2,
+    image: '../img/users/rxso.webp'
+  },
+  {
     name: 'Tatsu-Ming',
     role: copy.moderatorTrial,
     level: 2,
