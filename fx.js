@@ -1,5 +1,4 @@
 (() => {
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   const root = document.documentElement;
   const header = document.querySelector('.site-header');
@@ -8,7 +7,7 @@
 
   /* ---------- hero title: split letters ---------- */
   const heroTitle = document.querySelector('.hero h1 span');
-  if (heroTitle && !reduceMotion) {
+  if (heroTitle) {
     const text = heroTitle.textContent.trim();
     heroTitle.setAttribute('aria-label', text);
     heroTitle.textContent = '';
@@ -86,8 +85,6 @@
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
-
-  if (reduceMotion) return;
 
   /* ---------- pointer: cursor glow, card tilt/spotlight, magnetic buttons ---------- */
   if (finePointer) {

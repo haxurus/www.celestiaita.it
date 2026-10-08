@@ -279,10 +279,4 @@ h1 .ch-wrap{display:inline-block;overflow:hidden;padding:0 .02em .08em;vertical-
   .lightbox .lb-prev{left:8px}.lightbox .lb-next{right:8px}
 }
 @media(hover:none){.cursor-glow{display:none}}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;animation-delay:0s!important}
-  .reveal{opacity:1;transform:none;filter:none}
-  h1 .ch,.hero .hero-copy.reveal>*{opacity:1;transform:none;filter:none}
-  .marquee__track{animation:none}
-}
 .is-tilting{transition:transform .12s ease-out,border-color .3s,opacity .9s!important;will-change:transform}
