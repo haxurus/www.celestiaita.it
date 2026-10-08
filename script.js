@@ -95,6 +95,12 @@ const staffMembers = [
     image: '../img/users/di4mante.webp'
   },
   {
+    name: 'finore_',
+    role: copy.moderatorTrial,
+    level: 2,
+    image: '../img/users/finore_.webp'
+  },
+  {
     name: 'GoldenLuna',
     role: copy.moderator,
     level: 2,
