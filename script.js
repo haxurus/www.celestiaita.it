@@ -165,7 +165,7 @@ const staffMembers = [
     image: '../img/users/julie-senpai.webp'
   },
   {
-    name: 'killer_jack_',
+    name: 'Killer_Jack99',
     role: '',
     level: 4,
     image: '../img/users/killer-jack.webp'
@@ -191,7 +191,7 @@ const staffMembers = [
     image: '../img/users/kaira.webp'
   },
   {
-    name: 'killer_jack_',
+    name: 'Killer_Jack99',
     role: copy.eventManager,
     level: 5,
     image: '../img/users/killer-jack.webp'
