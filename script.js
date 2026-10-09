@@ -6,6 +6,7 @@ const copy = {
     moderatorFemale: 'Moderatrice',
     julieName: 'julisenpai',
     worldEditor: 'Editor mappa',
+    eventManager: 'Gestore eventi',
     guestDescription: 'The Realms ITA è una community italiana di VRChat, chill e aperta a tutti. Fondata su rispetto, amicizia e divertimento, offre uno spazio tranquillo dove essere se stessi, conoscere nuove persone e condividere momenti senza pressioni.',
     guestEmpty: 'Le community ospiti verranno aggiunte qui.',
     vrchatGroup: 'Gruppo VRChat',
@@ -26,6 +27,7 @@ const copy = {
     moderatorFemale: 'Moderator',
     julieName: 'Julie Senpai',
     worldEditor: 'World Editor',
+    eventManager: 'Event Manager',
     guestDescription: 'The Realms ITA is an Italian VRChat community that is relaxed and open to everyone. Built around respect, friendship, and fun, it offers a welcoming space where people can be themselves, meet new people, and share moments without pressure.',
     guestEmpty: 'Guest communities will be added here.',
     vrchatGroup: 'VRChat Group',
@@ -163,7 +165,7 @@ const staffMembers = [
     image: '../img/users/julie-senpai.webp'
   },
   {
-    name: 'Killer Jack',
+    name: 'killer_jack_',
     role: '',
     level: 4,
     image: '../img/users/killer-jack.webp'
@@ -189,10 +191,22 @@ const staffMembers = [
     image: '../img/users/kaira.webp'
   },
   {
+    name: 'killer_jack_',
+    role: copy.eventManager,
+    level: 5,
+    image: '../img/users/killer-jack.webp'
+  },
+  {
     name: 'ThaWalife',
     role: 'Graphic Designer',
     level: 5,
     image: '../img/users/walife.webp'
+  },
+  {
+    name: 'Wodoox',
+    role: copy.eventManager,
+    level: 5,
+    image: '../img/users/wodoox.webp'
   }
 ];
 
