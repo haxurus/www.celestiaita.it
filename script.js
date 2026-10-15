@@ -67,12 +67,6 @@ const staffMembers = [
 
   // Level 2 - Moderatori. Keep these members in alphabetical order.
   {
-    name: 'Flowey',
-    role: copy.moderatorTrial,
-    level: 2,
-    image: '../img/users/floweyy.webp'
-  },
-  {
     name: 'Altr3xa',
     role: copy.moderator,
     level: 2,
