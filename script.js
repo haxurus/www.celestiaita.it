@@ -4,7 +4,6 @@ const copy = {
     moderatorTrial: 'Moderatore · In prova',
     moderator: 'Moderatore',
     moderatorFemale: 'Moderatrice',
-    julieName: 'julisenpai',
     worldEditor: 'Editor mappa',
     eventManager: 'Gestore eventi',
     guestDescription: 'The Realms ITA è una community italiana di VRChat, chill e aperta a tutti. Fondata su rispetto, amicizia e divertimento, offre uno spazio tranquillo dove essere se stessi, conoscere nuove persone e condividere momenti senza pressioni.',
@@ -25,7 +24,6 @@ const copy = {
     moderatorTrial: 'Moderator · Trial',
     moderator: 'Moderator',
     moderatorFemale: 'Moderator',
-    julieName: 'Julie Senpai',
     worldEditor: 'World Editor',
     eventManager: 'Event Manager',
     guestDescription: 'The Realms ITA is an Italian VRChat community that is relaxed and open to everyone. Built around respect, friendship, and fun, it offers a welcoming space where people can be themselves, meet new people, and share moments without pressure.',
@@ -80,7 +78,7 @@ const staffMembers = [
   },
   {
     name: 'Cristaldragon17',
-    role: copy.moderatorTrial,
+    role: copy.moderator,
     level: 2,
     image: '../img/users/cristaldragon17.webp'
   },
@@ -92,9 +90,15 @@ const staffMembers = [
   },
   {
     name: 'finore_',
-    role: copy.moderatorTrial,
+    role: copy.moderator,
     level: 2,
     image: '../img/users/finore_.webp'
+  },
+  {
+    name: 'G3LvYx',
+    role: copy.moderatorTrial,
+    level: 2,
+    image: '../img/users/g3lvyx.webp'
   },
   {
     name: 'GoldenLuna',
@@ -103,14 +107,14 @@ const staffMembers = [
     image: '../img/users/golden-luna.webp'
   },
   {
-    name: copy.julieName,
+    name: 'julisenpai',
     role: copy.moderator,
     level: 2,
     image: '../img/users/julie-senpai.webp'
   },
   {
     name: 'kitsunefirefox',
-    role: copy.moderatorTrial,
+    role: copy.moderator,
     level: 2,
     image: '../img/users/kitsunefirefox.webp'
   },
@@ -133,6 +137,12 @@ const staffMembers = [
     image: '../img/users/rxso.webp'
   },
   {
+    name: 'Shiro',
+    role: copy.moderatorTrial,
+    level: 2,
+    image: '../img/users/shiro.webp'
+  },
+  {
     name: 'Tatsu-Ming',
     role: copy.moderatorTrial,
     level: 2,
@@ -153,7 +163,7 @@ const staffMembers = [
     image: '../img/users/haxurus.webp'
   },
   {
-    name: copy.julieName,
+    name: 'julisenpai',
     role: '',
     level: 4,
     image: '../img/users/julie-senpai.webp'
